@@ -9,7 +9,7 @@
 ## Layout
 
 ```
-.claude-plugin/marketplace.json   marketplace "nosinski" → plugins/buggy
+.claude-plugin/marketplace.json   marketplace "marioosh" → plugins/buggy
 plugins/buggy/                    the plugin (the only part that gets installed)
   .claude-plugin/plugin.json
   skills/<name>/SKILL.md          one skill per command (/buggy:<name>)

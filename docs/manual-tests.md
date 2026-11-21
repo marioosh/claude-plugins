@@ -142,7 +142,8 @@ Real use, not the test harness: the user drove every command in interactive Clau
 Code sessions in a copy of Darters.Zone (Elixir/Phoenix/Ash, released up to 0.6.4,
 its own spec-driven practice; no git remote). The plugin was installed from the
 local marketplace: `claude plugin marketplace add <repo> --scope local`,
-`claude plugin install buggy@nosinski --scope local` – a `directory` marketplace is
+`claude plugin install buggy@marioosh --scope local` (the marketplace was then named
+`nosinski`) – a `directory` marketplace is
 read in place, so fixes reached the next session without reinstalling.
 
 | # | Step | What happened | Result |
