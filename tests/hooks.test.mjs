@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import { tempRepo, tempDir, gitIn, writeFile, PLUGIN_ROOT, GIT_ENV } from './helpers.mjs';
 import { isOwnScriptCall, isGitCommit, isGitPush } from '../plugins/buggy/scripts/lib/guard.mjs';
 
-const ROOT = '/home/u/.claude/plugins/cache/nosinski/buggy/0.2.0';
+const ROOT = '/home/u/.claude/plugins/cache/marioosh/buggy/0.2.0';
 
 function hook(name, { stdin = '', cwd, env = {} } = {}) {
   const r = spawnSync('sh', [join(PLUGIN_ROOT, 'hooks', name)], {

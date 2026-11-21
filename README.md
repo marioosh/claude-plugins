@@ -46,11 +46,11 @@ In a terminal:
 
 ```bash
 claude plugin marketplace add marioosh/claude-plugins
-claude plugin install buggy@nosinski
+claude plugin install buggy@marioosh
 ```
 
 or inside Claude Code: `/plugin marketplace add marioosh/claude-plugins`, then
-`/plugin install buggy@nosinski`.
+`/plugin install buggy@marioosh`.
 
 Both commands take `--scope user` (default – all your projects), `--scope project`
 (written to `.claude/settings.json`, shared with the team) or `--scope local` (this
