@@ -26,7 +26,7 @@ docs/                             developer documentation, not installed
 ## Commands
 
 ```bash
-npm test                          # all tests
+npm test                          # all tests (node --test tests/*.test.mjs)
 node --test tests/change.test.mjs # one file
 npm run validate                  # claude plugin validate (marketplace + plugin)
 ```
