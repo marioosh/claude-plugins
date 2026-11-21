@@ -1,0 +1,12 @@
+{
+  "name": "buggy-plugin-dev",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "validate": "claude plugin validate . && claude plugin validate plugins/buggy"
+  }
+}

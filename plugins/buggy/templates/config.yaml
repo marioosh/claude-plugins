@@ -1,0 +1,21 @@
+# buggy project configuration (https://nosinski.pl)
+# Format: a strict subset of YAML – see the buggy documentation.
+buggy: 1
+
+# Branch that holds released versions. buggy never commits to it.
+main_branch: main
+
+version:
+  # Plain text file (e.g. version.txt) or a JSON file (e.g. package.json).
+  file: version.txt
+  # For a JSON file: the top-level key that holds the version.
+  # key: version
+
+language:
+  # Language of documents written with the user (specifications, comments in them).
+  docs: en
+  # Identifiers, code comments, URLs.
+  code: en
+  commits: en
+  # The user's own choices, e.g. "code comments: fi" or ".buggy/ui.md: pl".
+  exceptions: []

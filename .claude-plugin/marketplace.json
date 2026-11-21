@@ -1,0 +1,17 @@
+{
+  "name": "nosinski",
+  "owner": {
+    "name": "Mariusz Nosiński",
+    "url" : "https://nosinski.pl"
+  },
+  "description": "Claude Code plugins by Mariusz Nosiński.",
+  "plugins": [
+    {
+      "name": "buggy",
+      "source": "./plugins/buggy",
+      "category": "development",
+      "tags": ["sdd", "spec-driven-development", "semver", "git", "workflow", "code-review"],
+      "description": "Spec-driven development with semantic versioning and git: idea, spec, plan, implement, review, ship, release."
+    }
+  ]
+}

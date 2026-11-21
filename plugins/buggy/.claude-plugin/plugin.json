@@ -1,0 +1,13 @@
+{
+  "name": "buggy",
+  "version": "1.1.0",
+  "description": "Spec-driven development with semantic versioning and git: idea, spec, plan, implement, review, ship, release.",
+  "author": {
+    "name": "Mariusz Nosiński",
+    "url": "https://nosinski.pl"
+  },
+  "homepage": "https://nosinski.pl",
+  "repository": "https://github.com/marioosh/claude-plugins",
+  "license": "MIT",
+  "keywords": ["sdd", "spec-driven-development", "semver", "git", "workflow"]
+}
